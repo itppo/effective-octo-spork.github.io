@@ -1,0 +1,130 @@
+.offer
+  background: url(../img/offerIMG-1.png) no-repeat
+  background-size: 50% cover
+  background-position: center right
+  position: relative
+  &:before
+    content: ""
+    width: 50%
+    height: 100%
+    position: absolute
+    top: 0px
+    left: 0px
+    background-color: #ffffff
+
+
+
+  &-block
+    width: 50%
+    padding-right: 90px
+    position: relative
+  &__title
+    font-family: 'Museo Sans  Bold'
+    mix-width: 360px
+    line-height: 45px
+    margin-bottom: 24px
+    font-family: 'Museo Sans  Bold'
+    text-align: left
+  &__sobtitle
+    max-width: 250px
+    height: 36px
+    color: #333333
+    font-family: 'Museo Sans  Light'
+    font-size: 16px
+    font-weight: 400
+    margin-bottom: 30px
+    line-height: 20px
+
+  &__input
+    
+    margin-right: 5px
+    margin-bottom: 30px
+    width: 240px
+    
+  &__button
+    width: 100% 
+    font-family: 'Museo Sans  Bold'
+    width: 292px
+    height: 16px
+    font-size: 16px
+    font-weight: 400
+    line-height: 18px
+    width: 495px
+    height: 70px
+    border-radius: 10px
+
+
+  
+  &__content
+    display: flex
+    justify-content: space-between
+    margin-top: 31px
+    margin-bottom: 92px
+  &__header3
+    width: 224px
+    height: 39px
+    color: #333333
+    font-family: 'Museo Sans  Light'
+    font-size: 15px
+    font-weight: 400
+    line-height: 24px
+  &__seknd
+    width: 224px
+    height: 39px
+    color: #333333
+    font-family: 'Museo Sans  Light'
+    font-size: 15px
+    font-weight: 400
+    line-height: 24px
+   
+
+.offer__form
+  position: relative
+
+#username-error
+  position: absolute
+  top: 66px
+  left: 37px
+#phone-error
+  position: absolute
+  top: 66px
+  right: 50px
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+     
+   
+
+
+
+
+
+
+
+@media  (max-width: 1200px)
+  .offer
+    background-size: cover
+    &__input
+      width: 100%
+      margin-bottom: 10px
+    &__button
+      font-size: 12px
+@media  (max-width: 768px)
+  .offer
+    background: #ffffff
+    &-block
+      width: 100%
+      padding-right: 0px               
+

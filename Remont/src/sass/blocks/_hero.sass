@@ -1,0 +1,101 @@
+.hero
+
+  height: 770px
+  padding: 50px 0px
+  background-color: $secondary  
+  &-block
+    display: flex
+    justify-content: space-between
+
+    
+ 
+  &-text
+    flex-basis: 50%
+    margin-right: 140px
+    max-width: 390px
+    line-height: 24px
+  
+
+    
+    
+    
+    
+    
+  &__tatle
+    font-size: 34px
+    font-family: 'Museo Sans  Bold'
+    line-height: 55px 
+    margin-top: 90px
+    margin-bottom: 40px
+
+   
+  &__sodtitel
+    display: inline-block
+    font-size: 17px
+    font-weight: 700
+    margin-bottom: 70px
+   
+  &-list
+    margin: 0px
+    padding: 0px
+  &-list__item
+    display: flex
+    align-items: center
+    margin-bottom: 30px
+    &:last-child
+    margin-bottom: 30px
+  &__imege
+    width: 40px
+    height: 49px
+    margin-right: 40px
+  &-imege
+    margin-top: 52px
+
+
+
+   
+
+  
+    
+   
+    
+    
+  
+
+@media  (max-width: 1200px)
+  .hero
+    &-block
+      flex-direction: column
+      align-items: center
+      max-width: 100%
+    &-list
+      margin-bottom: 44px
+    &-text
+      padding-right: 10px
+
+@media  (max-width: 768px) 
+  .hero
+    &-text
+      &__tatle 
+        font-size: 24px
+        line-height: 1.4
+        margin-bottom: 15px
+      &__sodtitel 
+        font-size: 16px
+        margin-bottom: 25px
+    &-list
+      &__item
+        margin-bottom: 20px
+      &__text 
+        font-size: 12px
+      &__imege
+        margin-right: 15px
+        
+       
+                    
+
+
+
+     
+    
+
